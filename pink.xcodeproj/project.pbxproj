@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EE4E7E7A3F2CD87DDC40AF7 /* Pods_pink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6A00075291AC35D1E95650 /* Pods_pink.framework */; };
+		7517BCFB1E4FB313000132C1 /* MakeupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7517BCFA1E4FB313000132C1 /* MakeupViewController.swift */; };
+		75560DB41E4FE97A0031E9C3 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75560DB31E4FE97A0031E9C3 /* user.swift */; };
+		75560DB61E4FF2820031E9C3 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75560DB51E4FF2820031E9C3 /* AgeViewController.swift */; };
+		75560DBC1E505C7A0031E9C3 /* BothUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75560DBB1E505C7A0031E9C3 /* BothUsersViewController.swift */; };
+		75560DBE1E5072020031E9C3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75560DBD1E5072020031E9C3 /* WelcomeViewController.swift */; };
+		75560DC01E50802A0031E9C3 /* StepsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75560DBF1E50802A0031E9C3 /* StepsTableViewController.swift */; };
+		75560DC21E5080CC0031E9C3 /* FaceStepsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75560DC11E5080CC0031E9C3 /* FaceStepsTableViewCell.swift */; };
+		75560DC41E5091D20031E9C3 /* BeautyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75560DC31E5091D20031E9C3 /* BeautyCollectionViewCell.swift */; };
+		75560DC61E5092380031E9C3 /* BeautyProductsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75560DC51E5092380031E9C3 /* BeautyProductsCollectionViewController.swift */; };
+		75560DC81E50B5320031E9C3 /* Quicksand-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75560DC71E50B5320031E9C3 /* Quicksand-Regular.otf */; };
+		7573580A1E4F8CFB001B00A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757358091E4F8CFB001B00A8 /* AppDelegate.swift */; };
+		7573580C1E4F8CFB001B00A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7573580B1E4F8CFB001B00A8 /* ViewController.swift */; };
+		7573580F1E4F8CFB001B00A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7573580D1E4F8CFB001B00A8 /* Main.storyboard */; };
+		757358111E4F8CFB001B00A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757358101E4F8CFB001B00A8 /* Assets.xcassets */; };
+		757358141E4F8CFB001B00A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757358121E4F8CFB001B00A8 /* LaunchScreen.storyboard */; };
+		7573581F1E4F8CFB001B00A8 /* pinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7573581E1E4F8CFB001B00A8 /* pinkTests.swift */; };
+		7573582A1E4F8CFB001B00A8 /* pinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757358291E4F8CFB001B00A8 /* pinkUITests.swift */; };
+		757358741E4FAA89001B00A8 /* SkinTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757358731E4FAA89001B00A8 /* SkinTypeViewController.swift */; };
+		75DD62EF1E4FC6770092765F /* RegimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DD62EE1E4FC6770092765F /* RegimeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7573581B1E4F8CFB001B00A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 757357FE1E4F8CFB001B00A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757358051E4F8CFB001B00A8;
+			remoteInfo = pink;
+		};
+		757358261E4F8CFB001B00A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 757357FE1E4F8CFB001B00A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757358051E4F8CFB001B00A8;
+			remoteInfo = pink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29CB4EB39FD874394DF66119 /* Pods-pink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pink.release.xcconfig"; path = "Pods/Target Support Files/Pods-pink/Pods-pink.release.xcconfig"; sourceTree = "<group>"; };
+		5F6A00075291AC35D1E95650 /* Pods_pink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7517BCFA1E4FB313000132C1 /* MakeupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeupViewController.swift; sourceTree = "<group>"; };
+		75560DB31E4FE97A0031E9C3 /* user.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		75560DB51E4FF2820031E9C3 /* AgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		75560DBA1E504FCD0031E9C3 /* bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
+		75560DBB1E505C7A0031E9C3 /* BothUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BothUsersViewController.swift; sourceTree = "<group>"; };
+		75560DBD1E5072020031E9C3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		75560DBF1E50802A0031E9C3 /* StepsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsTableViewController.swift; sourceTree = "<group>"; };
+		75560DC11E5080CC0031E9C3 /* FaceStepsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceStepsTableViewCell.swift; sourceTree = "<group>"; };
+		75560DC31E5091D20031E9C3 /* BeautyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautyCollectionViewCell.swift; sourceTree = "<group>"; };
+		75560DC51E5092380031E9C3 /* BeautyProductsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeautyProductsCollectionViewController.swift; sourceTree = "<group>"; };
+		75560DC71E50B5320031E9C3 /* Quicksand-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.otf"; path = "../Quicksand-Regular.otf"; sourceTree = "<group>"; };
+		757358061E4F8CFB001B00A8 /* pink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		757358091E4F8CFB001B00A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7573580B1E4F8CFB001B00A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7573580E1E4F8CFB001B00A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		757358101E4F8CFB001B00A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		757358131E4F8CFB001B00A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		757358151E4F8CFB001B00A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7573581A1E4F8CFB001B00A8 /* pinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7573581E1E4F8CFB001B00A8 /* pinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinkTests.swift; sourceTree = "<group>"; };
+		757358201E4F8CFB001B00A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757358251E4F8CFB001B00A8 /* pinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		757358291E4F8CFB001B00A8 /* pinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinkUITests.swift; sourceTree = "<group>"; };
+		7573582B1E4F8CFB001B00A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757358731E4FAA89001B00A8 /* SkinTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkinTypeViewController.swift; sourceTree = "<group>"; };
+		75DD62EE1E4FC6770092765F /* RegimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegimeViewController.swift; sourceTree = "<group>"; };
+		F4C52D9E85E61A2BC92BED17 /* Pods-pink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pink/Pods-pink.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		757358031E4F8CFB001B00A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE4E7E7A3F2CD87DDC40AF7 /* Pods_pink.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757358171E4F8CFB001B00A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757358221E4F8CFB001B00A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		757357FD1E4F8CFB001B00A8 = {
+			isa = PBXGroup;
+			children = (
+				757358081E4F8CFB001B00A8 /* pink */,
+				7573581D1E4F8CFB001B00A8 /* pinkTests */,
+				757358281E4F8CFB001B00A8 /* pinkUITests */,
+				757358071E4F8CFB001B00A8 /* Products */,
+				8DD39D62C77C4EA37A93F195 /* Pods */,
+				86659755C67EE5FD7F11ECFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		757358071E4F8CFB001B00A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				757358061E4F8CFB001B00A8 /* pink.app */,
+				7573581A1E4F8CFB001B00A8 /* pinkTests.xctest */,
+				757358251E4F8CFB001B00A8 /* pinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		757358081E4F8CFB001B00A8 /* pink */ = {
+			isa = PBXGroup;
+			children = (
+				75560DC71E50B5320031E9C3 /* Quicksand-Regular.otf */,
+				757358091E4F8CFB001B00A8 /* AppDelegate.swift */,
+				7573580D1E4F8CFB001B00A8 /* Main.storyboard */,
+				75560DC51E5092380031E9C3 /* BeautyProductsCollectionViewController.swift */,
+				75560DBF1E50802A0031E9C3 /* StepsTableViewController.swift */,
+				75560DC11E5080CC0031E9C3 /* FaceStepsTableViewCell.swift */,
+				75560DC31E5091D20031E9C3 /* BeautyCollectionViewCell.swift */,
+				75560DBD1E5072020031E9C3 /* WelcomeViewController.swift */,
+				75560DBB1E505C7A0031E9C3 /* BothUsersViewController.swift */,
+				7573580B1E4F8CFB001B00A8 /* ViewController.swift */,
+				75560DB31E4FE97A0031E9C3 /* user.swift */,
+				75560DB51E4FF2820031E9C3 /* AgeViewController.swift */,
+				75DD62EE1E4FC6770092765F /* RegimeViewController.swift */,
+				757358731E4FAA89001B00A8 /* SkinTypeViewController.swift */,
+				7517BCFA1E4FB313000132C1 /* MakeupViewController.swift */,
+				757358101E4F8CFB001B00A8 /* Assets.xcassets */,
+				757358121E4F8CFB001B00A8 /* LaunchScreen.storyboard */,
+				757358151E4F8CFB001B00A8 /* Info.plist */,
+				75560DBA1E504FCD0031E9C3 /* bridging-header.h */,
+			);
+			path = pink;
+			sourceTree = "<group>";
+		};
+		7573581D1E4F8CFB001B00A8 /* pinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7573581E1E4F8CFB001B00A8 /* pinkTests.swift */,
+				757358201E4F8CFB001B00A8 /* Info.plist */,
+			);
+			path = pinkTests;
+			sourceTree = "<group>";
+		};
+		757358281E4F8CFB001B00A8 /* pinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				757358291E4F8CFB001B00A8 /* pinkUITests.swift */,
+				7573582B1E4F8CFB001B00A8 /* Info.plist */,
+			);
+			path = pinkUITests;
+			sourceTree = "<group>";
+		};
+		86659755C67EE5FD7F11ECFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6A00075291AC35D1E95650 /* Pods_pink.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DD39D62C77C4EA37A93F195 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4C52D9E85E61A2BC92BED17 /* Pods-pink.debug.xcconfig */,
+				29CB4EB39FD874394DF66119 /* Pods-pink.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		757358051E4F8CFB001B00A8 /* pink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7573582E1E4F8CFB001B00A8 /* Build configuration list for PBXNativeTarget "pink" */;
+			buildPhases = (
+				E03025EC9492C4A831C45F29 /* [CP] Check Pods Manifest.lock */,
+				757358021E4F8CFB001B00A8 /* Sources */,
+				757358031E4F8CFB001B00A8 /* Frameworks */,
+				757358041E4F8CFB001B00A8 /* Resources */,
+				432E53402280FCFE60CD2EA3 /* [CP] Embed Pods Frameworks */,
+				512F7779EB96039DDDAF4C6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pink;
+			productName = pink;
+			productReference = 757358061E4F8CFB001B00A8 /* pink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		757358191E4F8CFB001B00A8 /* pinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757358311E4F8CFB001B00A8 /* Build configuration list for PBXNativeTarget "pinkTests" */;
+			buildPhases = (
+				757358161E4F8CFB001B00A8 /* Sources */,
+				757358171E4F8CFB001B00A8 /* Frameworks */,
+				757358181E4F8CFB001B00A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7573581C1E4F8CFB001B00A8 /* PBXTargetDependency */,
+			);
+			name = pinkTests;
+			productName = pinkTests;
+			productReference = 7573581A1E4F8CFB001B00A8 /* pinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		757358241E4F8CFB001B00A8 /* pinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757358341E4F8CFB001B00A8 /* Build configuration list for PBXNativeTarget "pinkUITests" */;
+			buildPhases = (
+				757358211E4F8CFB001B00A8 /* Sources */,
+				757358221E4F8CFB001B00A8 /* Frameworks */,
+				757358231E4F8CFB001B00A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				757358271E4F8CFB001B00A8 /* PBXTargetDependency */,
+			);
+			name = pinkUITests;
+			productName = pinkUITests;
+			productReference = 757358251E4F8CFB001B00A8 /* pinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		757357FE1E4F8CFB001B00A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gianne Flores";
+				TargetAttributes = {
+					757358051E4F8CFB001B00A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					757358191E4F8CFB001B00A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 757358051E4F8CFB001B00A8;
+					};
+					757358241E4F8CFB001B00A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 757358051E4F8CFB001B00A8;
+					};
+				};
+			};
+			buildConfigurationList = 757358011E4F8CFB001B00A8 /* Build configuration list for PBXProject "pink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 757357FD1E4F8CFB001B00A8;
+			productRefGroup = 757358071E4F8CFB001B00A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				757358051E4F8CFB001B00A8 /* pink */,
+				757358191E4F8CFB001B00A8 /* pinkTests */,
+				757358241E4F8CFB001B00A8 /* pinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		757358041E4F8CFB001B00A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75560DC81E50B5320031E9C3 /* Quicksand-Regular.otf in Resources */,
+				757358141E4F8CFB001B00A8 /* LaunchScreen.storyboard in Resources */,
+				757358111E4F8CFB001B00A8 /* Assets.xcassets in Resources */,
+				7573580F1E4F8CFB001B00A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757358181E4F8CFB001B00A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757358231E4F8CFB001B00A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		432E53402280FCFE60CD2EA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pink/Pods-pink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		512F7779EB96039DDDAF4C6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pink/Pods-pink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03025EC9492C4A831C45F29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757358021E4F8CFB001B00A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75560DBE1E5072020031E9C3 /* WelcomeViewController.swift in Sources */,
+				7573580C1E4F8CFB001B00A8 /* ViewController.swift in Sources */,
+				757358741E4FAA89001B00A8 /* SkinTypeViewController.swift in Sources */,
+				75560DB61E4FF2820031E9C3 /* AgeViewController.swift in Sources */,
+				75560DB41E4FE97A0031E9C3 /* user.swift in Sources */,
+				75DD62EF1E4FC6770092765F /* RegimeViewController.swift in Sources */,
+				75560DC41E5091D20031E9C3 /* BeautyCollectionViewCell.swift in Sources */,
+				7573580A1E4F8CFB001B00A8 /* AppDelegate.swift in Sources */,
+				75560DC01E50802A0031E9C3 /* StepsTableViewController.swift in Sources */,
+				75560DBC1E505C7A0031E9C3 /* BothUsersViewController.swift in Sources */,
+				75560DC61E5092380031E9C3 /* BeautyProductsCollectionViewController.swift in Sources */,
+				7517BCFB1E4FB313000132C1 /* MakeupViewController.swift in Sources */,
+				75560DC21E5080CC0031E9C3 /* FaceStepsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757358161E4F8CFB001B00A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7573581F1E4F8CFB001B00A8 /* pinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757358211E4F8CFB001B00A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7573582A1E4F8CFB001B00A8 /* pinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7573581C1E4F8CFB001B00A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757358051E4F8CFB001B00A8 /* pink */;
+			targetProxy = 7573581B1E4F8CFB001B00A8 /* PBXContainerItemProxy */;
+		};
+		757358271E4F8CFB001B00A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757358051E4F8CFB001B00A8 /* pink */;
+			targetProxy = 757358261E4F8CFB001B00A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7573580D1E4F8CFB001B00A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7573580E1E4F8CFB001B00A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		757358121E4F8CFB001B00A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				757358131E4F8CFB001B00A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7573582C1E4F8CFB001B00A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7573582D1E4F8CFB001B00A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7573582F1E4F8CFB001B00A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C52D9E85E61A2BC92BED17 /* Pods-pink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GianneFlores.pink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/bridging-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		757358301E4F8CFB001B00A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CB4EB39FD874394DF66119 /* Pods-pink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GianneFlores.pink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/$(PROJECT_NAME)/bridging-header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		757358321E4F8CFB001B00A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GianneFlores.pinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pink.app/pink";
+			};
+			name = Debug;
+		};
+		757358331E4F8CFB001B00A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GianneFlores.pinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pink.app/pink";
+			};
+			name = Release;
+		};
+		757358351E4F8CFB001B00A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = pinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GianneFlores.pinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pink;
+			};
+			name = Debug;
+		};
+		757358361E4F8CFB001B00A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = pinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GianneFlores.pinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		757358011E4F8CFB001B00A8 /* Build configuration list for PBXProject "pink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7573582C1E4F8CFB001B00A8 /* Debug */,
+				7573582D1E4F8CFB001B00A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7573582E1E4F8CFB001B00A8 /* Build configuration list for PBXNativeTarget "pink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7573582F1E4F8CFB001B00A8 /* Debug */,
+				757358301E4F8CFB001B00A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757358311E4F8CFB001B00A8 /* Build configuration list for PBXNativeTarget "pinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757358321E4F8CFB001B00A8 /* Debug */,
+				757358331E4F8CFB001B00A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757358341E4F8CFB001B00A8 /* Build configuration list for PBXNativeTarget "pinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757358351E4F8CFB001B00A8 /* Debug */,
+				757358361E4F8CFB001B00A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 757357FE1E4F8CFB001B00A8 /* Project object */;
+}

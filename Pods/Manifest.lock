@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.3.0)
+  - QuotzzyKit (2.0.2)
+  - SHXMLParser (1.1.0)
+  - SwiftyJSON (3.1.4)
+  - SWXMLHash (3.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - QuotzzyKit
+  - SHXMLParser
+  - SwiftyJSON
+  - SWXMLHash
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  QuotzzyKit: e5b7005d0ceed52d416a1b394286bc5c6fe79076
+  SHXMLParser: 3e5ada336541b3e5b8d66046a14c2bf49742c62e
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SWXMLHash: 29d20b84692fc319ea8ed933058fe7d8d005139b
+
+PODFILE CHECKSUM: da3e31675f0d941170dda4507bf24a402f2f077e
+
+COCOAPODS: 1.2.0

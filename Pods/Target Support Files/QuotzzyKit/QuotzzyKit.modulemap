@@ -1,0 +1,6 @@
+framework module QuotzzyKit {
+  umbrella header "QuotzzyKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
